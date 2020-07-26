@@ -11,10 +11,10 @@
     "type": "git"
   },
   "keywords": [
-    "query",
-    "sql",
-    "simple",
-    "builder"
+    "async",
+    "await",
+    "typescript",
+    "decorator"
   ],
   "author": "tktcorporation <tktcorporation.go@gmail.com>",
   "license": "MIT",
