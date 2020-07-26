@@ -13,13 +13,13 @@ export function AsyncMethodDecorator(
   catchFunc?: ErrorArgVoidFunc,
   finalFunc?: VoidFunc,
 ): MethodDecorator {
-  return function (
+  return function(
     target: Object,
     methodName: string | symbol,
     descriptor: PropertyDescriptor,
   ) {
     const originalMethod = descriptor.value;
-    descriptor.value = function (...args: any[]) {
+    descriptor.value = function(...args: any[]) {
       const originalMethodFunc = async () => {
         return originalMethod.apply(this, [...args]);
       };
