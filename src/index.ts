@@ -1,1 +1,1 @@
-export { AsyncDecorator } from "./decorator/AsyncDecorator";
+export { AsyncMethodDecorator } from './decorator/AsyncMethodDecorator';
