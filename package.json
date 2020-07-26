@@ -1,5 +1,5 @@
 {
-  "name": "async-decorators",
+  "name": "type-async-decorators",
   "version": "0.0.1-0",
   "description": "",
   "main": "dist/index.js",
@@ -7,7 +7,7 @@
     "dist"
   ],
   "repository": {
-    "url": "https://github.com/tktcorporation/async-decorators",
+    "url": "https://github.com/tktcorporation/type-async-decorators",
     "type": "git"
   },
   "keywords": [
@@ -21,8 +21,8 @@
   "engines": {
     "npm": "use yarn instead of npm."
   },
-  "homepage": "https://github.com/tktcorporation/async-decorators",
-  "bugs": "https://github.com/tktcorporation/async-decorators/issues",
+  "homepage": "https://github.com/tktcorporation/type-async-decorators",
+  "bugs": "https://github.com/tktcorporation/type-async-decorators/issues",
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "yarn build",
